@@ -1,9 +1,9 @@
 build:
-	hugo --theme=hugo-theme-air
+	hugo --theme=air
 
 watch:
 	open http://127.0.0.1:1313
-	hugo server --buildDrafts --watch --theme=hugo-theme-air
+	hugo server --buildDrafts --watch --theme=air
 
 init:
 	brew update
