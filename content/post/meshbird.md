@@ -6,7 +6,7 @@ image = ""
 menu = ""
 share = true
 slug = "post-title"
-title = "meshbird"
+title = ""
 
 +++
 
@@ -29,6 +29,9 @@ For example, user can create private network between DigitalOcean's droplets in 
 
 ```bash
 $ go get github.com/gophergala2016/meshbird
+$ cd $GOPATH/src/github.com/gophergala2016/meshbird
+$ make
+
 ````
 
 ### Generate new network secret key
@@ -37,7 +40,7 @@ $ go get github.com/gophergala2016/meshbird
 $ meshbird new
 ```
 
-### Join to the private network with interface meshbird0
+### Join to the private network
 
 ```bash
 $ MESHBIRD_KEY="<key>" meshbird join
