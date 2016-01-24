@@ -8,7 +8,7 @@
   	<meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} &middot; {{ end }} {{ .Site.Title }}" />
   	<meta property="og:site_name" content="{{ .Site.Title }}" />
   	<meta property="og:url" content="{{ .Permalink }}" />
-    
+
     {{ if .IsPage }}
   	<meta property="og:type" content="article" />
 
@@ -32,7 +32,7 @@
 
     <link rel="shortcut icon" href="{{.Site.BaseURL}}images/favicon.ico">
 	  <link rel="apple-touch-icon" href="{{.Site.BaseURL}}images/apple-touch-icon.png" />
-    
+
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
 
@@ -65,7 +65,7 @@
     {{end}}
 <div id="particles-js"></div>
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="js/particles.js"></script>   
+<script src="/js/particles.js"></script>
 </head>
 <body class="nav-closed">
 
