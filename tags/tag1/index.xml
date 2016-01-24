@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on MeshBird</title>
+    <link>http://meshbird.com/tags/tag1/</link>
+    <description>Recent content in Tag1 on MeshBird</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Jan 2016 23:38:54 +0600</lastBuildDate>
+    <atom:link href="http://meshbird.com/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>meshbird</title>
+      <link>http://meshbird.com/post/post-title/</link>
+      <pubDate>Sun, 24 Jan 2016 23:38:54 +0600</pubDate>
+      
+      <guid>http://meshbird.com/post/post-title/</guid>
+      <description>
+
+&lt;p&gt;DISCLAIMER: I dumped a lot of code without much documentation and optimization.
+It needs to be cleaned up and better organized. Further work will be continued at
+&lt;a href=&#34;https://github.com/meshbird/meshbird&#34;&gt;https://github.com/meshbird/meshbird&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;meshbird:0131328a6871aa8a88c310d57a7277cb&#34;&gt;Meshbird&lt;/h1&gt;
+
+&lt;p&gt;Meshbird - distributed private networking. &lt;a href=&#34;https://twitter.com/meshbird&#34;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://avatars1.githubusercontent.com/u/16837838?v=3&amp;amp;s=600&#34; alt=&#34;MeshBird&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;intro:0131328a6871aa8a88c310d57a7277cb&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;Meshbird create distributed private networking between servers, containers, virtual machines and any computers in different datacenters, different countries, different cloud providers. All traffic transmit directly to recepient peer without passing any gateways. Meshbird do not require any centralized servers. Meshbird is absolutly decentralized distributed private networking.&lt;/p&gt;
+
+&lt;p&gt;For example, user can create private network between DigitalOcean&amp;rsquo;s droplets in each datacenter and link it together by executing one command. All traffic will be encrypted with strong AES-256.&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start:0131328a6871aa8a88c310d57a7277cb&#34;&gt;Quick Start&lt;/h2&gt;
+
+&lt;h3 id=&#34;install:0131328a6871aa8a88c310d57a7277cb&#34;&gt;Install&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ go get github.com/gophergala2016/meshbird
+````
+
+### Generate new network secret key
+
+```bash
+$ meshbird new
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;join-to-the-private-network-with-interface-meshbird0:0131328a6871aa8a88c310d57a7277cb&#34;&gt;Join to the private network with interface meshbird0&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ MESHBIRD_KEY=&amp;quot;&amp;lt;key&amp;gt;&amp;quot; meshbird join
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
