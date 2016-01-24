@@ -10,4 +10,4 @@ init:
 	brew install hugo
 
 upload: build
-	gsutil rsync -R public gs://meshbird.com
+	gsutil -m cp -a public-read -r ./public/* gs://meshbird.com/
