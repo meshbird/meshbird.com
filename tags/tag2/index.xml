@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on MeshBird</title>
-    <link>http://meshbird.com/tags/tag2/</link>
+    <link>/tags/tag2/</link>
     <description>Recent content in Tag2 on MeshBird</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jan 2016 23:38:54 +0600</lastBuildDate>
-    <atom:link href="http://meshbird.com/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>meshbird</title>
-      <link>http://meshbird.com/post/post-title/</link>
+      <link>/post/post-title/</link>
       <pubDate>Sun, 24 Jan 2016 23:38:54 +0600</pubDate>
       
-      <guid>http://meshbird.com/post/post-title/</guid>
+      <guid>/post/post-title/</guid>
       <description>
 
 &lt;p&gt;DISCLAIMER: I dumped a lot of code without much documentation and optimization.
