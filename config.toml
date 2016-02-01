@@ -1,4 +1,4 @@
-baseurl = "http://meshbird.com/"
-languageCode = "en-us"
+baseurl = "https://meshbird.com/"
+languageCode = "ru-RU"
 title = "MeshBird"
 theme = "air"

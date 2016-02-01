@@ -27,21 +27,18 @@ For example, user can create private network between DigitalOcean's droplets in 
 
 ### Install
 
-```bash
+```
 $ go get github.com/gophergala2016/meshbird
-$ cd $GOPATH/src/github.com/gophergala2016/meshbird
-$ make
-
-````
+```
 
 ### Generate new network secret key
 
-```bash
+```
 $ meshbird new
 ```
 
 ### Join to the private network
 
-```bash
+```
 $ MESHBIRD_KEY="<key>" meshbird join
 ```
