@@ -19,9 +19,11 @@ Meshbird - distributed private networking. [Twitter](https://twitter.com/meshbir
 
 ## Intro
 
-Meshbird create distributed private networking between servers, containers, virtual machines and any computers in different datacenters, different countries, different cloud providers. All traffic transmit directly to recepient peer without passing any gateways. Meshbird do not require any centralized servers. Meshbird is absolutly decentralized distributed private networking.
+Meshbird creates a distributed private network between servers, containers, virtual machines and any computer in different data-centers, different countries, different cloud providers. All the traffic is transmitted directly to recipient peer without passing any gateways.
 
-For example, user can create private network between DigitalOcean's droplets in each datacenter and link it together by executing one command. All traffic will be encrypted with strong AES-256.
+Meshbird does not require any centralized server, therefore it is absolutely decentralized.
+
+For example, a user can create a private network between DigitalOcean's droplets in each datacenter and link them together by executing one command. All the traffic will be encrypted with strong AES-256.
 
 ## Quick Start
 
